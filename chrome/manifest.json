@@ -1,5 +1,7 @@
 {
-  "name": "BNL Proxy",
+  "name": "BNL Proxy helper",
+  "short_name" : "BNL Proxy helper",
+  "description": "Extension that redirects you to a .proxy.bnl.lu version of a website (works only for specified domains) after click on the extension icon.",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
