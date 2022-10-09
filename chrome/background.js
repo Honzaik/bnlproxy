@@ -1,10 +1,8 @@
-console.log('huhuh');
-
 chrome.action.onClicked.addListener((tab) => {
-  console.log('here');
+  if (tab.url?.startsWith("chrome://")) return undefined; //no errors on chrome:// urls
   chrome.scripting.executeScript({
     target: {tabId: tab.id},
     files: ['content.js']
   });
-  
 });
+

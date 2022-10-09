@@ -1,5 +1,3 @@
-console.log('fffff');
-
 fetch(chrome.runtime.getURL('hostnames.json'))
 .then((response) => response.json()) 
 .then((json) => {
@@ -12,4 +10,6 @@ fetch(chrome.runtime.getURL('hostnames.json'))
   console.log('Redirecting to ' + currentUrl.hostname);
   location.href = currentUrl.href;
 });
+
+
 

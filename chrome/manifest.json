@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_title": "Click to show an sus",
+    "default_title": "Go to proxy.",
     "default_icon": "icon.png"
   },
   "permissions": [
